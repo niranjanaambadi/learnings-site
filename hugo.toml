@@ -16,6 +16,11 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
+  name = "Learnings-Everything that matters"
+  url = "/learnings-site/"
+  weight = 0
+
+  [[menu.main]]
     name = "Writing"
     url = "learnings-site/posts/"
     weight = 1
