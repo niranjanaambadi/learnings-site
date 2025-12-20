@@ -11,7 +11,7 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
-  customCSS = ["css/custom.css"]
+  customCSS = ["assets/css/custom.css"]
   math = true
 
 [menu]
