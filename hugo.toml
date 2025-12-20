@@ -17,12 +17,14 @@ theme = "PaperMod"
 [menu]
   [[menu.main]]
     name = "Writing"
-    url = "/posts/"
+    url = "posts/"
     weight = 1
+
   [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "about/"
     weight = 2
+
 [markup]
  [markup.highlight]
   style = "github-dark"
