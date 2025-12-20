@@ -50,7 +50,7 @@ theme = "PaperMod"
 
 [outputs]
   home = ["HTML", "RSS"]
-  page = ["HTML", "MathML"]
+  page = ["HTML"]
   section = ["HTML"]
 
 # Optional: taxonomies for tags/categories
