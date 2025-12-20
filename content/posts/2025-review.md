@@ -29,9 +29,9 @@ The probability is {{< math >}}\alpha+\beta{{< /math >}} in inline mode.
 {{< /math >}}
 
 
-$$
+{{< math >}}
 p(x \mid y=k) = \mathcal{S}_\alpha(\mu_k, \Sigma_k)
-$$
+{{< /math >}}
 
 where \(0 < \alpha < 2\) controls the tail heaviness.
 This is an inline \(a^*=x-b^*\) equation.
