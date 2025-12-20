@@ -29,4 +29,9 @@ theme = "PaperMod"
     codeFences = true
     guessSyntax = true
 
+# Optional: taxonomies for tags/categories
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
   
