@@ -16,9 +16,9 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-  name = "Home"
-  url = "./"
-  weight = 0
+    name = "Homepage"
+    url = "./"
+    weight = 0
 
   [[menu.main]]
     name = "Writing"
