@@ -1,6 +1,6 @@
 relativeURLs = true
 canonifyURLs = true
-baseURL = "https://niranjanaambadi.github.io/"
+baseURL = "https://niranjanaambadi.github.io/learnings-site"
 languageCode = "en-us"
 title = "Learnings-Everything that matters"
 theme = "PaperMod"
@@ -16,18 +16,18 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-  name = "Learnings-Everything that matters"
-  url = "learnings-site/"
+  name = "Home"
+  url = "./"
   weight = 0
 
   [[menu.main]]
     name = "Writing"
-    url = "learnings-site/posts/"
+    url = "posts/"
     weight = 1
 
   [[menu.main]]
     name = "About"
-    url = "learnings-site/about/"
+    url = "about/"
     weight = 2
 
 [markup]
