@@ -4,20 +4,20 @@ baseURL = "https://niranjanaambadi.github.io/learnings-site/"
 languageCode = "en-us"
 title = "Learnings-Everything that matters"
 theme = "PaperMod"
-[markup]
-  # [markup.goldmark]
-  #   [markup.goldmark.extensions]
-  #     [markup.goldmark.extensions.passthrough]
-  #       enable = true
-  #       [markup.goldmark.extensions.passthrough.delimiters]
-  #         block = [['\[', '\]'], ['$$', '$$']]
-  #         inline = [['\(', '\)']]
-  [markup.highlight]
-    style = "github-dark"
-    lineNos = true
-    codeFences = true
-    guessSyntax = true
-    noClasses = false
+# [markup]
+#   # [markup.goldmark]
+#   #   [markup.goldmark.extensions]
+#   #     [markup.goldmark.extensions.passthrough]
+#   #       enable = true
+#   #       [markup.goldmark.extensions.passthrough.delimiters]
+#   #         block = [['\[', '\]'], ['$$', '$$']]
+#   #         inline = [['\(', '\)']]
+#   [markup.highlight]
+#     style = "github-dark"
+#     lineNos = true
+#     codeFences = true
+#     guessSyntax = true
+#     noClasses = false
 [params]
   description = "Research, machine learning, and writing"
   author = "Niranjana Ambadi"
@@ -43,6 +43,15 @@ theme = "PaperMod"
     name = "About"
     url = "about/"
     weight = 2
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "MathML"]
+  section = ["HTML"]
 
 # Optional: taxonomies for tags/categories
 [taxonomies]
