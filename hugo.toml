@@ -34,7 +34,7 @@ theme = "PaperMod"
 [taxonomies]
   tag = "tags"
   category = "categories"
-[outputs]
-  home = ["HTML"]
-  page = ["HTML"]
-  section = ["HTML"]
+# [outputs]
+#   home = ["HTML"]
+#   page = ["HTML"]
+#   section = ["HTML"]
