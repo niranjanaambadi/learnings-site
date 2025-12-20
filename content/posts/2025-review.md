@@ -23,6 +23,12 @@ Quadratic decision boundaries are optimal for Gaussian distributions, but fail f
 
 The class-conditional density can be modeled as an **α-stable distribution**:
 
+The probability is {{< math >}}\alpha+\beta{{< /math >}} in inline mode.
+{{< math >}}
+\frac{1}{\Gamma(k)\beta(k)}
+{{< /math >}}
+
+
 $$
 p(x \mid y=k) = \mathcal{S}_\alpha(\mu_k, \Sigma_k)
 $$
