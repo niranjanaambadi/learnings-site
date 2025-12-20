@@ -1,4 +1,4 @@
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
 baseURL = "https://niranjanaambadi.github.io/learnings-site/"
 languageCode = "en-us"
@@ -11,7 +11,7 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
-  customCSS = ["assets/css/custom.css"]
+  customCSS = ["css/custom.css"]
   math = true
 
 [menu]
