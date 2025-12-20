@@ -1,0 +1,39 @@
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.7;
+}
+
+.post-content h2 {
+  margin-top: 2.5rem;
+}
+figure {
+  margin: 2.5rem auto;
+  text-align: center;
+}
+
+figure img {
+  max-width: 85%;
+  height: auto;
+  border-radius: 4px;
+}
+
+figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #555;
+}
+
+figcaption strong {
+  font-weight: 600;
+}
+.figure-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.figure-row figure {
+  max-width: 45%;
+}
