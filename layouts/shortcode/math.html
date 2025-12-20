@@ -1,0 +1,4 @@
+{{- $tex := .Inner | strings.TrimSpace -}}
+{{- with transform.ToMath $tex -}}
+  {{ . }}
+{{- end -}}
