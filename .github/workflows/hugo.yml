@@ -18,21 +18,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      # Checkout the repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
 
+      # Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
+      # Build the site
       - name: Build
         run: hugo --minify
 
+      # Upload public folder to GitHub Pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
