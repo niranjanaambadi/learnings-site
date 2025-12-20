@@ -4,6 +4,14 @@ baseURL = "https://niranjanaambadi.github.io/learnings-site/"
 languageCode = "en-us"
 title = "Learnings-Everything that matters"
 theme = "PaperMod"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 [params]
   description = "Research, machine learning, and writing"
   author = "Niranjana Ambadi"
