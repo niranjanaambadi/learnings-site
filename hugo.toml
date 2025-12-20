@@ -1,4 +1,6 @@
 baseURL = "https://niranjanaambadi.github.io/learnings-site/"
+relativeURLs = true
+canonifyURLs = true
 languageCode = "en-us"
 title = "Learnings-Everything that matters"
 theme = "PaperMod"
