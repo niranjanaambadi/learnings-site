@@ -12,6 +12,12 @@ theme = "PaperMod"
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
+  [markup.highlight]
+    style = "github-dark"
+    lineNos = true
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
 [params]
   description = "Research, machine learning, and writing"
   author = "Niranjana Ambadi"
@@ -38,13 +44,6 @@ theme = "PaperMod"
     url = "about/"
     weight = 2
 
-[markup]
- [markup.highlight]
-  style = "github-dark"
-  lineNos = true
-  codeFences = true
-  guessSyntax = true
-  noClasses = false
 # Optional: taxonomies for tags/categories
 [taxonomies]
   tag = "tags"
