@@ -26,6 +26,6 @@ This vantage point puts a spotlight on one essential question for the times ahea
 like plumbing wold be taken over by AI. Humanity is facing change like never before. We are witnessing core skills and years of practice being turned into a joke by LLMs, agents and agentic AI. 
 
 I would say that the true value lies in your _raw self_. While this may be obscured by the familiar's well-worn barricades, it is not impossible to realize if you pause and ponder. 
-A new life, human connections, the taste of good food, dance and enriching music- everything original that is vital for a human being **to thrive** and not just live.  
+A new life, human connections, the taste of good food, dance and enriching music- everything original that is vital for a human being **to thrive** and not just to live. This calls for grounding yourself and nurturing your inner child, one small step at a time. 
 
-My personal journey of kaizen is underway. And I hope that this site would add some value to yours as well. 
+My personal journey of _kaizen_ is underway. And I hope that this site would add some value to yours as well. 
