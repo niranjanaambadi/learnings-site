@@ -1,3 +1,9 @@
+---
+title: "FakeFinder: an AI That Detects AI-Generated Images"
+date: 2025-12-2
+tags: [projects,learnings,automl,CNN]
+---
+
 # Building an AI That Detects AI-Generated Images: A Deep Dive into AutoML
 
 *How I built a flexible CNN architecture with automated hyperparameter tuning to distinguish real photos from AI-generated fakes*
