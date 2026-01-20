@@ -1,6 +1,6 @@
 ---
 title: "FakeFinder: an AI That Detects AI-Generated Images"
-date: 2025-12-2
+date: 2025-12-02
 tags: [projects,learnings,automl,CNN]
 ---
 
