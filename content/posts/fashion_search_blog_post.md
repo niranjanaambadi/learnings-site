@@ -1,6 +1,11 @@
-# Building an Intelligent Fashion Search Engine with PyTorch: From Classification to Visual Similarity
+---
+title: "Fashion Search Engine with PyTorch"
+date: 2026-01-12
+tags: [siamese networks, fashion]
+---
 
-## A Journey Through Modern Deep Learning Architecture Design
+## Building an Intelligent Fashion Search Engine with PyTorch: From Classification to Visual Similarity
+A Journey Through Modern Deep Learning Architecture Design
 
 *A comprehensive guide to building production-ready computer vision systems using modular architecture patterns, efficient mobile networks, and metric learning*
 
